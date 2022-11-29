@@ -15,3 +15,36 @@ body {
     font-size: 18px;
     font-weight: bold;
 }
+
+/*===================slider==========================*/
+
+.carousel-inner {
+    max-height: 35rem;
+}
+
+
+
+
+/* ===============MEDIDAS DE PANTALLA ============= */
+
+@media (max-width:768px) {
+    #intro { 
+        width: 90% !important;
+    
+    }
+    .servicio-fila {
+        width: 100% !important;
+        text-align: center;
+
+    }
+
+   
+}
+/* ===============pantalla sm ============= */
+
+@media (max-width: 576px) {
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
